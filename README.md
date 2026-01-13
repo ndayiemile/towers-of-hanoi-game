@@ -1,18 +1,32 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Towers of Hanoi Game
+
+This project implements the classic Towers of Hanoi puzzle in Java. The main logic is in `Towers.java`, which allows you to solve the puzzle for any number of rings.
+
+## How to Run
+
+To run the Towers of Hanoi game, compile and execute the `Towers` class, providing the number of rings as a command-line argument:
+
+```
+javac Towers.java
+java Towers <number_of_rings>
+```
+
+For example, to solve the puzzle with 3 rings:
+
+```
+java Towers 3
+```
 
 ## Folder Structure
 
-The workspace contains two folders by default, where:
+- `src/`: Contains source files (e.g., `App.java`)
+- `Towers.java`: Main Towers of Hanoi implementation
+- `bin/`: Compiled output files
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Notes
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- `App.java` is a simple example entry point and not related to the Towers of Hanoi logic.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+This project is ready to run in Visual Studio Code or any Java environment.
