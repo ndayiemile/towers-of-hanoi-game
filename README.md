@@ -1,7 +1,6 @@
 
 # Towers of Hanoi Game
 
-**Acknowledgement**: This project was developed as an in-class assignment.
 This project implements the classic Towers of Hanoi puzzle in Java.
 
 ## How to Run
@@ -20,5 +19,6 @@ java Towers 3
 ```
 
 ## Files
-
 - `Towers.java`: Main implementation
+
+**Acknowledgement**: This project was developed as an in-class assignment.
